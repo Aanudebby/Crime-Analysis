@@ -29,18 +29,25 @@ Location Dimension
 Date Dimension Table
 Offence Dim Table
 Additional features were created to give more robustness to the analysis.
-The data model was designed using the Star Schema where the different dimensions were connected to the Crime Fact table in a one-to-many relationship
+The data model was designed using the Star Schema where the different dimensions were connected to the Crime Fact table in a one-to-many relationship<br>
+
 ![image](https://github.com/user-attachments/assets/ef18b447-4935-4038-8e35-649eeedb7f31)
 
 # Dashboard
 ![image](https://github.com/user-attachments/assets/ed08d311-b60c-4491-8604-9135604b0739)
 
 # Insight
-Total Crime committed during the year from 2012 to 2022 amounts to 60 Million.
-The crime rate trend  was on a steady rate at about 4million from 2012 to 2016. From 2017, the rate of crime increased from 4million plus to 5 million.
-In 2020, there was a decrease in the rate of crime
-Highest rate of crime was in 2021.
-Record shows that the highest Offence committed according to offfence group was Theft Offence follow by Violence.
+Total Crime committed during the year from 2012 to 2022 amounts to 60 Million.<br>
+
+The crime rate trend  was on a steady rate at about 4million from 2012 to 2016. From 2017, the rate of crime increased from 4million plus to 5 million.<br>
+
+In 2020, there was a decrease in the rate of crime<br>
+
+Highest rate of crime was in 2021.<br>
+
+Record shows that the highest Offence committed according to offfence group was Theft Offence follow by Violence.<br>
+
+Records shows that South East has the highest no of crime based on region.
 
 # Recommendation
 Police should focus more on reducing crime offences of Theft and Violence because that is the most committed offence over the years.
