@@ -9,11 +9,16 @@ The data was sourced from the Home Office's open data tables for police-recorded
 - [Data dictionary](https://drive.google.com/file/d/1UanB-0CzhQIlMBdpBprS7t8d0W_L2jHx/view?usp=classroom_web&authuser=0)
 # Data transformation and cleaning
 The data underwent several cleaning and transformation steps to ensure it was ready for analysis:
-Missing Data Handling: Rows with incomplete data, particularly missing outcomes or crime types, were either filled using appropriate methods or removed.
-Data Formatting: The data was structured into consistent financial years and quarters, ensuring time-based comparisons were valid.
-Categorization: Crime data was categorized based on offence types, regions, and outcomes, using reference tables to map codes to descriptive labels.
-Outliers and Anomalies: Any outliers, especially negative values due to crime cancellations, were flagged and accounted for in the analysis to avoid skewing results.
-These steps were necessary to prepare the dataset for accurate analysis and reporting.
+Missing Data Handling: Rows with incomplete data, particularly missing outcomes or crime types, were either filled using appropriate methods or removed.<BR>
+
+Data Formatting: The data was structured into consistent financial years and quarters, ensuring time-based comparisons were valid.<BR>
+
+Categorization: Crime data was categorized based on offence types, regions, and outcomes, using reference tables to map codes to descriptive labels.<BR>
+
+Outliers and Anomalies: Any outliers, especially negative values due to crime cancellations, were flagged and accounted for in the analysis to avoid skewing results.<BR>
+
+These steps were necessary to prepare the dataset for accurate analysis and reporting.<BR>
+
 ![image](https://github.com/user-attachments/assets/3c583e4c-5f4a-4a1a-9186-0874c6fa22a5)
 
 # Data modeling
@@ -26,4 +31,5 @@ The data model was designed using the Star Schema where the different dimensions
 ![image](https://github.com/user-attachments/assets/ef18b447-4935-4038-8e35-649eeedb7f31)
 
 # Dashboard
-![image](https://github.com/user-attachments/assets/452cdf69-eb28-4b71-8876-45c40da2656f)
+![image](https://github.com/user-attachments/assets/ed08d311-b60c-4491-8604-9135604b0739)
+
