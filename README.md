@@ -7,8 +7,10 @@ The data was sourced from the Home Office's open data tables for police-recorded
 - [location data](https://docs.google.com/spreadsheets/d/12_rGg2I15b8fcCuI3-sa6s_ZFo_GO6ODY4_CmGzXqms/edit?usp=classroom_web&authuser=0)
 - [Crime data](https://docs.google.com/spreadsheets/d/10tMLxKFBo_yIbFgpzbFul6xO9JhHG8yth8ZM2RXc6Gc/edit?usp=classroom_web&authuser=0)
 - [Data dictionary](https://drive.google.com/file/d/1UanB-0CzhQIlMBdpBprS7t8d0W_L2jHx/view?usp=classroom_web&authuser=0)
+- 
 # Data transformation and cleaning
-The data underwent several cleaning and transformation steps to ensure it was ready for analysis:
+The data underwent several cleaning and transformation steps to ensure it was ready for analysis:<br>
+
 Missing Data Handling: Rows with incomplete data, particularly missing outcomes or crime types, were either filled using appropriate methods or removed.<BR>
 
 Data Formatting: The data was structured into consistent financial years and quarters, ensuring time-based comparisons were valid.<BR>
@@ -32,4 +34,17 @@ The data model was designed using the Star Schema where the different dimensions
 
 # Dashboard
 ![image](https://github.com/user-attachments/assets/ed08d311-b60c-4491-8604-9135604b0739)
+
+# Insight
+Total Crime committed during the year from 2012 to 2022 amounts to 60 Million.
+The crime rate trend  was on a steady rate at about 4million from 2012 to 2016. From 2017, the rate of crime increased from 4million plus to 5 million.
+In 2020, there was a decrease in the rate of crime
+Highest rate of crime was in 2021.
+Record shows that the highest Offence committed according to offfence group was Theft Offence follow by Violence.
+
+# Recommendation
+Police should focus more on reducing crime offences of Theft and Violence because that is the most committed offence over the years.
+
+
+
 
