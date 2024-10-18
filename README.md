@@ -24,11 +24,14 @@ These steps were necessary to prepare the dataset for accurate analysis and repo
 ![image](https://github.com/user-attachments/assets/3c583e4c-5f4a-4a1a-9186-0874c6fa22a5)
 
 # Data modeling
- Data is organized by financial year, with a breakdown of various crime categories. It includes multiple levels such as offence codes, offence groups, and police force areas to ensure comprehensive crime coverage.Dimensions with which to break down the analysis were identified. Hence, new tables for identified dimensions were created. These included:
-Location Dimension
-Date Dimension Table
-Offence Dim Table
-Additional features were created to give more robustness to the analysis.
+ Data is organized by financial year, with a breakdown of various crime categories. It includes multiple levels such as offence codes, offence groups, and police force areas to ensure comprehensive crime coverage. Dimensions with which to break down the analysis were identified. Hence, new tables for identified dimensions were created. These included:<br>
+ 
+Location Dimension<br>
+
+Date Dimension Table<br>
+
+Offence Dim Table<br>
+All attached to the Crime fact table.
 The data model was designed using the Star Schema where the different dimensions were connected to the Crime Fact table in a one-to-many relationship<br>
 
 ![image](https://github.com/user-attachments/assets/ef18b447-4935-4038-8e35-649eeedb7f31)
