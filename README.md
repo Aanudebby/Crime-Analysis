@@ -31,7 +31,8 @@ Location Dimension<br>
 Date Dimension Table<br>
 
 Offence Dim Table<br>
-All attached to the Crime fact table.
+All attached to the Crime fact table.<br>
+
 The data model was designed using the Star Schema where the different dimensions were connected to the Crime Fact table in a one-to-many relationship<br>
 
 ![image](https://github.com/user-attachments/assets/ef18b447-4935-4038-8e35-649eeedb7f31)
